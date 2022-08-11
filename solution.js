@@ -34,3 +34,18 @@ arr3[1]=arr3[1]+i+' ';
 
 for(line of arr3)
 console.log(line)
+
+// 
+for(let i = 1; i <= 5; i++) {
+	if(i==1)
+		 firstLine = secondLine = "";
+    if(i < 5)
+        firstLine += (i * 111);   
+	secondLine += i - 1;
+    if(i === 5){
+        for(let j = 0; j < 2; j++)
+            secondLine += secondLine.substr(0, 5);
+		console.log(firstLine.split("").join(" "));
+		console.log(secondLine.split("").join(" "));
+    }
+}
