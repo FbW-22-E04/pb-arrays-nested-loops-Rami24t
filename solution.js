@@ -35,7 +35,7 @@ arr3[1]=arr3[1]+i+' ';
 for(line of arr3)
 console.log(line)
 
-// 
+// Bonus Q3
 for(let i = 1; i <= 5; i++) {
 	if(i==1)
 		 firstLine = secondLine = "";
